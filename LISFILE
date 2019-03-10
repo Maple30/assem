@@ -1,0 +1,31 @@
+SIC Assembler V1.2
+
+2000        ho       start   2000              test program for sic software  
+2000 002042 first    lda     two                                              
+2003 0C2024          sta     aa                                               
+2006 002045          lda     seven                                            
+2009 0C2027          sta     bb                                               
+200C 002048          lda     three                                            
+200F 0C202A          sta     dd                                               
+2012 002024          lda     aa                                               
+2015 182027          add     bb                                               
+2018 18203F          add     one                                              
+201B 0C2039          sta     cc                                               
+201E E0204E          td      outdev                                           
+2021 DC204E          wd      outdev                                           
+2024        aa       resw    1                                                
+2027        bb       resw    1                                                
+202A        dd       resw    1                                                
+202D        ff       resw    1                                                
+2030        gg       resw    1                                                
+2033        hh       resw    1                                                
+2036        ii       resw    1                                                
+2039        cc       resw    1                                                
+203C        ee       resw    1                                                
+203F 000001 one      word    1                                                
+2042 000002 two      word    2                                                
+2045 000007 seven    word    7                                                
+2048 000003 three    word    3                                                
+204B 000000 zero     word    0                                                
+204E 05     outdev   byte    x'05'                                            
+204F                 end     first                                            
