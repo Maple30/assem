@@ -1,0 +1,45 @@
+
+ SIC/XE Assembler Version 1.00
+ Public Domain 1993 by LBL, Keny, Ted
+
+ Line   Loc   ObjCode           Source Line
+ ----  ----  --------  -----------------------------
+    1  2000            HO       START   2000              TEST PROGRAM FOR SIC S
+    2  2000  03204F    FIRST    LDA     AA
+    3  2003  1B204F             ADD     BB
+    4  2006  190001             ADD     #1
+    5  2009  C0                 FLOAT
+    6  200A  0F2057             STA     CC
+    7  200D  032054             LDA     CC
+    8  2010  1F2045             SUB     DD
+    9  2013  1D0002             SUB     #2
+   10  2016  0F204E             STA     EE
+   11  2019  03204B             LDA     EE
+   12  201C  232033             MUL     AA
+   13  201F  210003             MUL     #3
+   14  2022  0F2036             STA     FF
+   15  2025  03203F             LDA     EE
+   16  2028  672027             DIVF    AA
+   17  202B  650004             DIVF    #4
+   18  202E  0F202D             STA     GG
+   19  2031  03202A             LDA     GG
+   20  2034  210003             MUL     #3
+   21  2037  0F2027             STA     HH
+   22  203A  010000             LDA     #0
+   23  203D  0F202A             STA     II
+   24  2040  032018             LDA     FF
+   25  2043  2B201B             COMP    HH
+   26  2046  3B2024             JLT     EDD
+   27  2049  032012             LDA     GG
+   28  204C  650006             DIVF    #6
+   29  204F  0F2018             STA     II
+   30  2052  000002    AA       WORD    2
+   31  2055  000007    BB       WORD    7
+   32  2058  000003    DD       WORD    3
+   33  205B            FF       RESW    1
+   34  205E            GG       RESW    1
+   35  2061            HH       RESW    1
+   36  2064            CC       RESW    1
+   37  2067            EE       RESW    1
+   38  206A            II       RESW    1
+   39                  EDD      END     FIRST

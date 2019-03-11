@@ -1,0 +1,240 @@
+SIC SIMULATOR V1.6
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+B 2000
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+S
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000024
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R
+A=000030  X=00009A  L=000009  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=000024  CC=LT
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000012
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000027
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00000F
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000030
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000021
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00001E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000021
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000006
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00001B
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000112
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00011B
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000133
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00012D
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=00011E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=0000BE
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000112
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+BREAKPOINT REACHED
+P=002000
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+H 1
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     1 INSTRUCTIONS EXECUTED
+P=002003
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R
+A=000002  X=002000  L=0000DF  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=002003  CC=EQ
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D 2051-2053
+
+2050 7B000002 00000700 00030000 00000001
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+H 3
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=00200C
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D 2075-2077
+
+2070 FFFFFFFF FF00000A FFFFFFFF FFFFFFFF
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002015
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=00201E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002027
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002030
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002039
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002042
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=00204B
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002054
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+RR
+     3 INSTRUCTIONS EXECUTED
+P=00205D
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002066
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=00206F
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+     3 INSTRUCTIONS EXECUTED
+P=002078
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+ILLEGAL MACHINE INSTRUCTION
+P=00207E
+     3 INSTRUCTIONS EXECUTED
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+RR
+ILLEGAL MACHINE INSTRUCTION
+P=00207E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+ILLEGAL MACHINE INSTRUCTION
+P=00207E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+ILLEGAL MACHINE INSTRUCTION
+P=00207E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+ILLEGAL MACHINE INSTRUCTION
+P=00207E
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R,2078-207B
+A=00004B  X=002000  L=0000DF  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=00207E  CC=GT
+
+2070 00000000 0000000A 00000500 0000FFFF
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R,206c-206F
+A=00004B  X=002000  L=0000DF  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=00207E  CC=GT
+
+2060 00000200 00030000 04000006 00001E00
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R,206c-207E
+A=00004B  X=002000  L=0000DF  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=00207E  CC=GT
+
+2

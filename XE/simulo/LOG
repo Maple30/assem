@@ -1,0 +1,69 @@
+SIC SIMULATOR V1.6
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+S
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  1000 INSTRUCTIONS EXECUTED
+P=000024
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+H 5000
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  5000 INSTRUCTIONS EXECUTED
+P=000021
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  5000 INSTRUCTIONS EXECUTED
+P=0000CA
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+  5000 INSTRUCTIONS EXECUTED
+P=000118
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+D R
+A=00000A  X=002000  L=0000DF  B=FFFFFF  
+S=FFFFFF  T=FFFFFF  P=002009  CC=EQ
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter, D(ump, H(count, B(kpt, Q(uit?
+R
+UNSUPPORTED MACHINE INSTRUCTION
+P=002009
+
+COMMAND: S(tart, R(un, E(nter
