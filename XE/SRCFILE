@@ -2,7 +2,6 @@ ho       start   2000              test program for sic software
 first    lda     aa
          add     bb
          add     #1
-         float
          sta     cc
          lda     cc
          sub     dd
@@ -13,8 +12,8 @@ first    lda     aa
          mul     #3
          sta     ff
          lda     ee
-         divf    aa
-         divf    #4
+         div     aa
+         div     #4
          sta     gg
          lda     gg
          mul     #3
@@ -25,7 +24,7 @@ first    lda     aa
          comp    hh
          jlt     edd
          lda     gg
-         divf    #6
+         div     #6
          sta     ii
 aa       word    2
 bb       word    7
