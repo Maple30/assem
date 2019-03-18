@@ -1,0 +1,38 @@
+007D0            HO     START   2000    
+007D0  03204E    FIRST  LDA     AA    
+007D3  1B204E           ADD     BB    
+007D6  190001           ADD     #1    
+007D9  0F2057           STA     CC    
+007DC  032054           LDA     CC    
+007DF  1F2045           SUB     DD    
+007E2  1D0002           SUB     #2    
+007E5  0F204E           STA     EE    
+007E8  03204B           LDA     EE    
+007EB  232033           MUL     AA    
+007EE  210003           MUL     #3    
+007F1  0F2036           STA     FF    
+007F4  03203F           LDA     EE    
+007F7  272027           DIV     AA    
+007FA  250004           DIV     #4    
+007FD  0F202D           STA     GG    
+00800  03202A           LDA     GG    
+00803  210003           MUL     #3    
+00806  0F2027           STA     HH    
+00809  010000           LDA     #0    
+0080C  0F202A           STA     II    
+0080F  032018           LDA     FF    
+00812  2B201B           COMP    HH    
+00815  3B2024           JLT     EDD    
+00818  032012           LDA     GG    
+0081B  250006           DIV     #6    
+0081E  0F2018           STA     II    
+00821  000002    AA     WORD    2    
+00824  000007    BB     WORD    7    
+00827  000003    DD     WORD    3    
+0082A  000000    FF     RESW    1    
+0082D  000000    GG     RESW    1    
+00830  000000    HH     RESW    1    
+00833  000000    CC     RESW    1    
+00836  000000    EE     RESW    1    
+00839  000000    II     RESW    1    
+0083C            EDD    END     FIRST    
