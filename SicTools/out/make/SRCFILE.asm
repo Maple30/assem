@@ -24,8 +24,8 @@ EVEN     LDA     NUMFLOW
          ADD     SUM
          STA     SUM
          J	 EVEN
-NUM1     WORD    15
-NUM2     WORD    36
+NUM1     WORD    16
+NUM2     WORD    38
 SUM      RESW    5
 NUMFLOW  RESW    5
 RE       END     FIRST
